@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.container{
+	max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.logo{
+	width: 20%;
+    float: left;
+}
+.logo a{}
+.logo a img{}
+.social-link{
+	width: 80%;
+    float: left;
+}
+.social-link ul{
+	text-align: right;
+}
+.social-link ul li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 5px;
+	position: relative;
+}
+.social-link ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+}
+.social-link ul li a img{}
+.social-link ul li a img:hover{}
+.hand-img{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	max-width: 100%;
+	display: block;
+}
+hr{
+	margin-top: 25px;
+	margin-bottom: 15;
+	margin-bottom: 15px;
+}
+.menu{
+	width: 100%;
+}
+.menu ul{
+	text-align: left;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+.menu ul li a{
+	color: #727272;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.4s;
+	display: block;
+	padding: 10px 0px;
+	transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+.menu ul li a:hover{
+	color: #2dcc70;
+}
+.banner-section{
+	background-image: url("../images/bannerbg.jpg");
+	min-height: 52vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.banner-content{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transform: translate();
+}
+.monitor-img{
+	max-width: 100%;
+	display: block;
+}
+.banner-content img{}
+.browse-portfolio{
+    margin-top: 110px;
+}
+.browse-portfolio-content{
+    text-align: center;
+    padding: 0 180px;
+}
+.browse-portfolio-content p{
+	color: #ACACAC;
+	/* font-size: 20px; */
+	font-weight: 600;
+	line-height: 1.6;
+	text-transform: uppercase;
+}
+.button{
+    background: #2dcc70;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 41px 0;
+    font-family: lato;
+    display: inline-block;
+    transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+.button:hover{
+    background: #727272;
+}
+.get-to-know-us{
+    background: #EFEFEF;
+    padding: 40px 0;
+}
+.get-to-know-us-content{
+    padding: 0px 155px;
+}
+.video-part{
+    float: left;
+    display: inline-block;
+    max-width: 40%;
+}
+.video-part img{}
+.get-to-know-us-text{
+    float: left;
+    display: inline-block;
+    max-width: 60%;
+    padding-left: 30px;
+}
+.get-to-know-us-text h2{
+    color: #737373;
+    font-weight: bold;
+    font-family: lato;
+    text-transform: uppercase;
+}
+.get-to-know-us-text p{
+    font-family: lato;
+    color: #ACACAC;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+.are-you-ready{
+    background: #332F30;
+}
+.are-you-ready-content{
+    padding: 0 155px;
+}
+.heading{
+    float: left;
+    display: inline-block;
+    max-width: 60%;
+}
+.heading h2{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #eee;
+    margin: 45px 0;
+    font-family: lato;
+    transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+.find-out-button{
+    float: right;
+    display: inline-block;
+    max-width: 40%;
+}
+
+.footer-section{
+    background: #EFEFEF;
+    padding: 50px 0;
+}
+.footer-content{
+    padding: 0 155px;
+}
+.copywright-section{
+    float: left;
+    width: 50%;
+}
+.copywright-section p{
+    color: #a7a7a7;
+    text-transform: uppercase;
+    font-family: lato;
+    font-weight: 600;
+}
+.menu-link{
+    float: right;
+    width: 50%;
+}
+.menu-link ul{
+    text-align: right;
+}
+.menu-link ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu-link ul li:after{
+	content: "/";
+    color: #a7a7a7;
+    margin: 0 10px;
+}
+.menu-link ul li:last-child:after{
+	content: none;
+}
+.menu-link ul li a{
+    text-decoration: none;
+    color: #a7a7a7;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+.menu-link ul li a:hover{
+	color: #2dcc70;
+}
+
+
